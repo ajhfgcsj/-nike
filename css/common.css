@@ -1,0 +1,30 @@
+
+/* 取消全部a标签的下划线 */
+body a:hover {
+    text-decoration: none;
+}
+body input:focus {
+    border: 0;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 文本居中 */
+.tac {
+    text-align: center;
+}
